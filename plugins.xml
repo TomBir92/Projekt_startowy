@@ -1,0 +1,14 @@
+<plugins>
+  <pyqgis_plugin name="Uzupełnianki" version="wersja 0.9">
+    <qgis_minimum_version>3.0.0</qgis_minimum_version>
+    <description>Podpina surowe warstwy z terenu, dopisuje kolumny i podpina bazę danych z gatunkami tak, że przy uzupełnianiu nazwy pojawia się pole z podpowiedziami oraz dopisywane są dodatkowe informacje (pozostałe nazwy, status ochrony itp.). </description>
+    <download_url>https://github.com/kamildrejer/podpinacz/blob/main/download/podpinacz.zip?raw=true</download_url>
+  </pyqgis_plugin>
+
+  <pyqgis_plugin name="Uzupełnianki - warstwa ostateczna" version="wersja 0.1">
+    <qgis_minimum_version>3.0.0</qgis_minimum_version>
+    <description>Tworzy warstwę ostateczną do przekazania, z odpowiednio sformatowanymi polami.</description>
+    <download_url>https://github.com/kamildrejer/podpinacz/blob/main/download/podpinacz.zip?raw=true</download_url>
+  </pyqgis_plugin>
+
+</plugins>
