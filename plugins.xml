@@ -17,7 +17,7 @@
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Plugin uzupełnia kolumnę z liczbą porządkową/id od zadanego numeru zgodnie z kolenością ustaloną według zadanej kolumny.
 </description>
-    <download_url>https://github.com/kamildrejer/wtyczki/blob/main/podpinacz_krok_3.zip?raw=true</download_url>
+    <download_url>https://github.com/kamildrejer/wtyczki/blob/main/lpgenerator.zip?raw=true</download_url>
   </pyqgis_plugin>
 
 </plugins>
