@@ -10,5 +10,14 @@
     <description>Tworzy warstwę ostateczną do przekazania, z odpowiednio sformatowanymi polami. Dopisywane są dodatkowe informacje (pozostałe nazwy, status ochrony itp.). Działa najlepiej z warstwami wygenerowanymi wtyczką /Uzupełnianki - podpinacz/, może być wykorzystywany także z każdą inną warstwą.</description>
     <download_url>https://github.com/kamildrejer/wtyczki/blob/main/podpinacz_krok_3.zip?raw=true</download_url>
   </pyqgis_plugin>
+  
+  
+  
+  <pyqgis_plugin name="LP generator" version="wersja 1.0.0">
+    <qgis_minimum_version>3.14.0</qgis_minimum_version>
+    <description>Plugin uzupełnia kolumnę z liczbą porządkową/id od zadanego numeru zgodnie z kolenością ustaloną według zadanej kolumny.
+</description>
+    <download_url>https://github.com/kamildrejer/wtyczki/blob/main/podpinacz_krok_3.zip?raw=true</download_url>
+  </pyqgis_plugin>
 
 </plugins>
