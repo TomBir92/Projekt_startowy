@@ -31,9 +31,9 @@
     <download_url>https://github.com/kamildrejer/wtyczki/blob/main/oceny.zip?raw=true</download_url>
   </pyqgis_plugin>
   
-  <pyqgis_plugin name="Batodcinek" version="wersja 1.0">
+  <pyqgis_plugin name="Batodcinek" version="wersja 1.1">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
-    <description>Plugin zlicza liczbę nagrań gatunków nietoperzy z podziałem na odcinki funkcjonalne.</description>
+    <description>Plugin zlicza liczbę nagrań gatunków nietoperzy z podziałem na odcinki funkcjonalne oraz datę</description>
     <download_url>https://github.com/kamildrejer/wtyczki/blob/main/batodcinek.zip?raw=true</download_url>
   </pyqgis_plugin>
   
