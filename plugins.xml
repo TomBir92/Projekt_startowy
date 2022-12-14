@@ -25,7 +25,7 @@
     <download_url>https://github.com/kamildrejer/wtyczki/blob/main/wmslistremove.zip?raw=true</download_url>
   </pyqgis_plugin>
 
-   <pyqgis_plugin name="Oceny" version="wersja 2.2">
+   <pyqgis_plugin name="Oceny" version="wersja 2.3">
     <qgis_minimum_version>3.20.0</qgis_minimum_version>
     <description>Robi przecięcia warstw inwentaryzacji z warstwami projektowymi</description>
     <download_url>https://github.com/kamildrejer/wtyczki/blob/main/oceny.zip?raw=true</download_url>
