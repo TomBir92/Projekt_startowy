@@ -40,7 +40,7 @@
    <pyqgis_plugin name="Projekt startowy" version="wersja 0.1">
     <qgis_minimum_version>3.14.0</qgis_minimum_version>
     <description>Ładuje projekt startwy lub poszczewgólne grupy warstw</description>
-    <download_url>https://github.com/kamildrejer/wtyczki/blob/main/projektstartowy.zip?raw=true</download_url>
+    <download_url>https://github.com/kamildrejer/wtyczki/blob/main/projekt_startowy.zip?raw=true</download_url>
   </pyqgis_plugin>
 
 </plugins>
