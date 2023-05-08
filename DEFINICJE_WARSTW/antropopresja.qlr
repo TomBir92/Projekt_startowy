@@ -1,107 +1,141 @@
 <!DOCTYPE qgis-layer-definition>
 <qlr>
-  <layer-tree-group name="" checked="Qt::Checked" expanded="1">
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-group name="ANTROPOPRESJA" checked="Qt::Unchecked" expanded="0">
+    <layer-tree-group checked="Qt::Unchecked" expanded="0" name="ANTROPOPRESJA">
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer providerKey="wms" id="elektrownie_44c7643c_c54c_4dd0_81d0_c5325d8e9359" name="Elektrownie" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=18&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=18&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="elektrownie_44c7643c_c54c_4dd0_81d0_c5325d8e9359" expanded="0" name="Elektrownie" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Elektrownie" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="emitory_py__w_i_gaz_w_c230bd0f_7fd8_41b2_a8be_3ea081313bd3" name="Emitory pyłów i gazów" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=17&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=17&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="emitory_py__w_i_gaz_w_c230bd0f_7fd8_41b2_a8be_3ea081313bd3" expanded="0" name="Emitory pyłów i gazów" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Emitory pyłów i gazów" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="magazyny_substancji_niebezpiecznych_5b208c5b_cb61_4e60_b99f_1c75488650f8" name="Magazyny substancji niebezpiecznych" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=8&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=8&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="magazyny_substancji_niebezpiecznych_5b208c5b_cb61_4e60_b99f_1c75488650f8" expanded="0" name="Magazyny substancji niebezpiecznych" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Magazyny substancji niebezpiecznych" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="miejsca_powa_nej_awarii_f8f58fe6_4de3_4bb7_8383_8ccba82dd4be" name="Miejsca poważnej awarii" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=10&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=10&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="miejsca_powa_nej_awarii_f8f58fe6_4de3_4bb7_8383_8ccba82dd4be" expanded="0" name="Miejsca poważnej awarii" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Miejsca poważnej awarii" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="miejsca_zrzutu__ciek_w_d1187808_4f1e_4f46_9bcc_c5f7a4d3a18b" name="Miejsca zrzutu ścieków" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=6&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=6&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="miejsca_zrzutu__ciek_w_d1187808_4f1e_4f46_9bcc_c5f7a4d3a18b" expanded="0" name="Miejsca zrzutu ścieków" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Miejsca zrzutu ścieków" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="obiekty_odzysku_i_unieszkodliwiania_odpad_w_aeb75cc3_ba87_46f3_ac13_a7dd6974e64c" name="Obiekty odzysku i unieszkodliwiania odpadów" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=14&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=14&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="obiekty_odzysku_i_unieszkodliwiania_odpad_w_aeb75cc3_ba87_46f3_ac13_a7dd6974e64c" expanded="0" name="Obiekty odzysku i unieszkodliwiania odpadów" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Obiekty odzysku i unieszkodliwiania odpadów" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="oczyszczalnie__ciek_w_d94d83da_282c_4e9e_ac21_f17980ea030c" name="Oczyszczalnie ścieków" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=13&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=13&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="oczyszczalnie__ciek_w_d94d83da_282c_4e9e_ac21_f17980ea030c" expanded="0" name="Oczyszczalnie ścieków" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Oczyszczalnie ścieków" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="stacje_prze_adunkowe_odpad_w_7669f493_cc62_449d_890a_419a82912e1b" name="Stacje przeładunkowe odpadów" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=11&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=11&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="stacje_prze_adunkowe_odpad_w_7669f493_cc62_449d_890a_419a82912e1b" expanded="0" name="Stacje przeładunkowe odpadów" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Stacje przeładunkowe odpadów" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="stacje_paliw_acf3f8ee_ee7c_4e31_98be_e37708d45262" name="Stacje paliw" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=9&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=9&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="stacje_paliw_acf3f8ee_ee7c_4e31_98be_e37708d45262" expanded="0" name="Stacje paliw" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Stacje paliw" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="zak_ady_przemys_owe_69e2f44c_1bb9_43b3_bc1d_994b87b451ba" name="Zakłady przemysłowe" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=7&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=7&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="zak_ady_przemys_owe_69e2f44c_1bb9_43b3_bc1d_994b87b451ba" expanded="0" name="Zakłady przemysłowe" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Zakłady przemysłowe" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-group name="Składowiska odpadów" checked="Qt::Unchecked" expanded="0">
+      <layer-tree-group checked="Qt::Unchecked" expanded="0" name="Składowiska odpadów">
         <customproperties>
           <Option/>
         </customproperties>
-        <layer-tree-layer providerKey="wms" id="sk_adowiska_odpad_w___niebezpieczne_czynne_d378eb3c_bd16_49bf_8fc5_cda24105e8f8" name="składowiska odpadów - niebezpieczne czynne" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=5&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+        <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=5&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="sk_adowiska_odpad_w___niebezpieczne_czynne_d378eb3c_bd16_49bf_8fc5_cda24105e8f8" expanded="0" name="składowiska odpadów - niebezpieczne czynne" legend_exp="" providerKey="wms" legend_split_behavior="0">
           <customproperties>
-            <Option/>
+            <Option type="Map">
+              <Option type="QString" value="składowiska odpadów - niebezpieczne czynne" name="cached_name"/>
+            </Option>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer providerKey="wms" id="sk_adowiska_odpad_w___oboj_tne_czynne_2f3734ef_f106_4162_9d5a_7ddad171f754" name="składowiska odpadów - obojętne czynne" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=4&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+        <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=4&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="sk_adowiska_odpad_w___oboj_tne_czynne_2f3734ef_f106_4162_9d5a_7ddad171f754" expanded="0" name="składowiska odpadów - obojętne czynne" legend_exp="" providerKey="wms" legend_split_behavior="0">
           <customproperties>
-            <Option/>
+            <Option type="Map">
+              <Option type="QString" value="składowiska odpadów - obojętne czynne" name="cached_name"/>
+            </Option>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer providerKey="wms" id="sk_adowiska_odpad_w___inne_czynne_b3eb4c42_6b07_43e4_a547_6589edb11f42" name="składowiska odpadów - inne czynne" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=3&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+        <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=3&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="sk_adowiska_odpad_w___inne_czynne_b3eb4c42_6b07_43e4_a547_6589edb11f42" expanded="0" name="składowiska odpadów - inne czynne" legend_exp="" providerKey="wms" legend_split_behavior="0">
           <customproperties>
-            <Option/>
+            <Option type="Map">
+              <Option type="QString" value="składowiska odpadów - inne czynne" name="cached_name"/>
+            </Option>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer providerKey="wms" id="sk_adowiska_odpad_w___niebezpieczne_zamkni_te_dd9199f2_6213_46d5_bfca_c2126c47743f" name="składowiska odpadów - niebezpieczne zamknięte" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=2&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+        <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=2&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="sk_adowiska_odpad_w___niebezpieczne_zamkni_te_dd9199f2_6213_46d5_bfca_c2126c47743f" expanded="0" name="składowiska odpadów - niebezpieczne zamknięte" legend_exp="" providerKey="wms" legend_split_behavior="0">
           <customproperties>
-            <Option/>
+            <Option type="Map">
+              <Option type="QString" value="składowiska odpadów - niebezpieczne zamknięte" name="cached_name"/>
+            </Option>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer providerKey="wms" id="sk_adowiska_odpad_w___oboj_tne_zamkni_te_996ebaee_28bf_4d23_a4c3_5eeccf726d78" name="składowiska odpadów - obojętne zamknięte" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=1&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+        <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=1&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="sk_adowiska_odpad_w___oboj_tne_zamkni_te_996ebaee_28bf_4d23_a4c3_5eeccf726d78" expanded="0" name="składowiska odpadów - obojętne zamknięte" legend_exp="" providerKey="wms" legend_split_behavior="0">
           <customproperties>
-            <Option/>
+            <Option type="Map">
+              <Option type="QString" value="składowiska odpadów - obojętne zamknięte" name="cached_name"/>
+            </Option>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer providerKey="wms" id="sk_adowiska_odpad_w___inne_zamkni_te_ff47e3d5_d32b_4f5f_98ca_abe0c96bd53c" name="składowiska odpadów - inne zamknięte" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=0&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+        <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=0&amp;styles&amp;url=https://cbdgmapa.pgi.gov.pl/arcgis/services/geozagrozenia/antropopresja/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="sk_adowiska_odpad_w___inne_zamkni_te_ff47e3d5_d32b_4f5f_98ca_abe0c96bd53c" expanded="0" name="składowiska odpadów - inne zamknięte" legend_exp="" providerKey="wms" legend_split_behavior="0">
           <customproperties>
-            <Option/>
+            <Option type="Map">
+              <Option type="QString" value="składowiska odpadów - inne zamknięte" name="cached_name"/>
+            </Option>
           </customproperties>
         </layer-tree-layer>
       </layer-tree-group>
-      <layer-tree-layer providerKey="wms" id="Raster_e77c5103_d174_4e3c_b201_0f111acbc2e5" name="Mapa sozologiczna" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=Raster&amp;styles&amp;url=https://mapy.geoportal.gov.pl/wss/service/img/guest/SOZO/MapServer/WMSServer" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=Raster&amp;styles&amp;url=https://mapy.geoportal.gov.pl/wss/service/img/guest/SOZO/MapServer/WMSServer" checked="Qt::Unchecked" patch_size="-1,-1" id="Raster_e77c5103_d174_4e3c_b201_0f111acbc2e5" expanded="0" name="Mapa sozologiczna" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="Mapa sozologiczna" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
     </layer-tree-group>
   </layer-tree-group>
   <maplayers>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>187813.3300699999963399</xmin>
         <ymin>178478.3399550000031013</ymin>
@@ -166,7 +200,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -189,7 +223,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -197,24 +231,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -225,14 +259,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>187665.77006300000357442</xmin>
         <ymin>158358.94000000000232831</ymin>
@@ -297,7 +331,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -320,7 +354,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -328,24 +362,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -356,14 +390,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>187895.29007300001103431</xmin>
         <ymin>178878.10997399999178015</ymin>
@@ -428,7 +462,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -451,7 +485,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -459,24 +493,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -487,14 +521,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>196356.71997500001452863</xmin>
         <ymin>160671.03000999998766929</ymin>
@@ -559,7 +593,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -582,7 +616,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -590,24 +624,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -618,14 +652,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>176847.20014900001115166</xmin>
         <ymin>160969.10002400001394562</ymin>
@@ -690,7 +724,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -713,7 +747,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -721,24 +755,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -749,14 +783,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>188555.41010499998810701</xmin>
         <ymin>160254.99999000001116656</ymin>
@@ -821,7 +855,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -844,7 +878,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -852,24 +886,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -880,14 +914,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>176872.76014999998733401</xmin>
         <ymin>161019.1200259999895934</ymin>
@@ -952,7 +986,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -975,7 +1009,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -983,24 +1017,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1011,14 +1045,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="35" colorizeRed="247" colorizeBlue="35" saturation="0" grayscaleMode="0" colorizeOn="1" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="247" colorizeStrength="100" colorizeOn="1" grayscaleMode="0" colorizeBlue="35" invertColors="0" saturation="0" colorizeGreen="35"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>208210.35003800000413321</xmin>
         <ymin>217850.4200260000070557</ymin>
@@ -1083,7 +1117,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1106,7 +1140,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -1114,24 +1148,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1142,14 +1176,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>172446.78013999998802319</xmin>
         <ymin>148637.9700379999994766</ymin>
@@ -1214,7 +1248,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1237,7 +1271,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -1245,24 +1279,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1273,14 +1307,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>178035.05010500000207685</xmin>
         <ymin>154816.25003200001083314</ymin>
@@ -1345,7 +1379,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1368,7 +1402,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -1376,24 +1410,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1404,14 +1438,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="35" colorizeRed="247" colorizeBlue="35" saturation="0" grayscaleMode="0" colorizeOn="1" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="247" colorizeStrength="100" colorizeOn="1" grayscaleMode="0" colorizeBlue="35" invertColors="0" saturation="0" colorizeGreen="35"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>179156.00995800000964664</xmin>
         <ymin>158722.16001699998741969</ymin>
@@ -1476,7 +1510,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1499,7 +1533,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -1507,24 +1541,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1535,14 +1569,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>179156.00995800000964664</xmin>
         <ymin>158722.16001699998741969</ymin>
@@ -1607,7 +1641,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1630,7 +1664,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -1638,24 +1672,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1666,14 +1700,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="4"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="4" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>179156.00995800000964664</xmin>
         <ymin>158722.16001699998741969</ymin>
@@ -1738,7 +1772,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1761,7 +1795,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -1769,24 +1803,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1797,14 +1831,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>179156.00995800000964664</xmin>
         <ymin>158722.16001699998741969</ymin>
@@ -1869,7 +1903,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1892,7 +1926,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -1900,24 +1934,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1928,14 +1962,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>179156.00995800000964664</xmin>
         <ymin>158722.16001699998741969</ymin>
@@ -2000,7 +2034,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -2023,7 +2057,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -2031,24 +2065,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -2059,14 +2093,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>179156.00995800000964664</xmin>
         <ymin>158722.16001699998741969</ymin>
@@ -2131,7 +2165,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -2154,7 +2188,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -2162,24 +2196,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.5">
+        <rasterrenderer type="singlebandcolordata" opacity="0.5" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -2190,14 +2224,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>163374.07010000001173466</xmin>
         <ymin>130915.73559999999997672</ymin>
@@ -2268,7 +2302,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -2276,21 +2310,21 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="QString" name="identify/format" value="Undefined"/>
+          <Option type="QString" value="Undefined" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="1">
+        <rasterrenderer type="singlebandcolordata" opacity="1" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -2301,8 +2335,8 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>

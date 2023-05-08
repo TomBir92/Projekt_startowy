@@ -1,53 +1,73 @@
 <!DOCTYPE qgis-layer-definition>
 <qlr>
-  <layer-tree-group name="" checked="Qt::Checked" expanded="1">
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
     <customproperties>
       <Option/>
     </customproperties>
-    <layer-tree-group name="PODKŁADY" checked="Qt::Checked" expanded="0">
+    <layer-tree-group checked="Qt::Checked" expanded="1" name="PODKŁADY">
       <customproperties>
         <Option/>
       </customproperties>
-      <layer-tree-layer providerKey="wms" id="OpenStreetMap_ea4e351d_09cb_43f8_8085_8741be4f9abb" name="OpenStreetMap" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png" checked="Qt::Checked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png" checked="Qt::Unchecked" patch_size="-1,-1" id="OpenStreetMap_ea4e351d_09cb_43f8_8085_8741be4f9abb" expanded="0" name="OpenStreetMap" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
           <Option type="Map">
-            <Option type="QString" name="cached_name" value="OpenStreetMap"/>
+            <Option type="QString" value="OpenStreetMap" name="cached_name"/>
             <Option type="invalid" name="expandedLegendNodes"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="MAPA_TOPOGRAFICZNA_a85221af_5d59_41dc_856d_8daf4dbed57e" name="MAPA TOPOGRAFICZNA" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=MAPA%20TOPOGRAFICZNA&amp;styles=default&amp;tileMatrixSet=EPSG:2180&amp;url=http://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/TOPO?service%3DWMTS%26request%3DgetCapabilities" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=MAPA%20TOPOGRAFICZNA&amp;styles=default&amp;tileMatrixSet=EPSG:2180&amp;url=http://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/TOPO?service%3DWMTS%26request%3DgetCapabilities" checked="Qt::Unchecked" patch_size="-1,-1" id="MAPA_TOPOGRAFICZNA_a85221af_5d59_41dc_856d_8daf4dbed57e" expanded="0" name="MAPA TOPOGRAFICZNA" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
           <Option type="Map">
-            <Option type="QString" name="cached_name" value="MAPA TOPOGRAFICZNA"/>
+            <Option type="QString" value="MAPA TOPOGRAFICZNA" name="cached_name"/>
             <Option type="invalid" name="expandedLegendNodes"/>
           </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-layer providerKey="wms" id="ORTOFOTOMAPA_469da46f_231b_4605_9cd5_bd46f11c0106" name="ORTOFOTOMAPA" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ORTOFOTOMAPA&amp;styles=default&amp;tileMatrixSet=EPSG:2180&amp;url=https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?service%3DWMTS%26request%3DgetCapabilities" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=MAPA%20TOPOGRAFICZNA&amp;styles=default&amp;tileMatrixSet=EPSG:2180&amp;url=http://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/TOPO?service%3DWMTS%26request%3DgetCapabilities" checked="Qt::Checked" patch_size="-1,-1" id="MAPA_TOPOGRAFICZNA_64508cb9_c52f_4e2b_8db8_f8d644d15862" expanded="0" name="MAPA TOPOGRAFICZNA (czarno-biała)" legend_exp="" providerKey="wms" legend_split_behavior="0">
         <customproperties>
-          <Option/>
+          <Option type="Map">
+            <Option type="QString" value="MAPA TOPOGRAFICZNA (czarno-biała)" name="cached_name"/>
+          </Option>
         </customproperties>
       </layer-tree-layer>
-      <layer-tree-group name="Numyczny Model Terenu" checked="Qt::Unchecked" expanded="0">
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ORTOFOTOMAPA&amp;styles=default&amp;tileMatrixSet=EPSG:2180&amp;url=https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?service%3DWMTS%26request%3DgetCapabilities" checked="Qt::Unchecked" patch_size="-1,-1" id="ORTOFOTOMAPA_469da46f_231b_4605_9cd5_bd46f11c0106" expanded="0" name="ORTOFOTOMAPA" legend_exp="" providerKey="wms" legend_split_behavior="0">
+        <customproperties>
+          <Option type="Map">
+            <Option type="QString" value="ORTOFOTOMAPA" name="cached_name"/>
+          </Option>
+        </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ORTOFOTOMAPA&amp;styles=default&amp;tileMatrixSet=EPSG:2180&amp;url=https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?service%3DWMTS%26request%3DgetCapabilities" checked="Qt::Unchecked" patch_size="-1,-1" id="ORTOFOTOMAPA_6d935f4d_8e8b_4d49_bfb7_6b69e544e7a4" expanded="0" name="ORTOFOTOMAPA (czarno-biała)" legend_exp="" providerKey="wms" legend_split_behavior="0">
+        <customproperties>
+          <Option type="Map">
+            <Option type="QString" value="ORTOFOTOMAPA (czarno-biała)" name="cached_name"/>
+          </Option>
+        </customproperties>
+      </layer-tree-layer>
+      <layer-tree-group checked="Qt::Unchecked" expanded="0" name="Numyczny Model Terenu">
         <customproperties>
           <Option/>
         </customproperties>
-        <layer-tree-layer providerKey="wms" id="Dynamiczna_hipsometria_3031aaa0_5f3c_471f_8408_ad5fed325720" name="Dynamiczna hipsometria" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ISOK_HipsoDyn&amp;styles&amp;url=https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMS/Hypsometry" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+        <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ISOK_HipsoDyn&amp;styles&amp;url=https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMS/Hypsometry" checked="Qt::Unchecked" patch_size="-1,-1" id="Dynamiczna_hipsometria_3031aaa0_5f3c_471f_8408_ad5fed325720" expanded="0" name="Dynamiczna hipsometria" legend_exp="" providerKey="wms" legend_split_behavior="0">
           <customproperties>
-            <Option/>
+            <Option type="Map">
+              <Option type="QString" value="Dynamiczna hipsometria" name="cached_name"/>
+            </Option>
           </customproperties>
         </layer-tree-layer>
-        <layer-tree-layer providerKey="wms" id="Cieniowanie_w_siatce_1m_x_1m_ced00b88_687a_471b_b4e9_e2a4e6a50b94" name="Cieniowanie w siatce 1m x 1m" source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=Raster&amp;styles&amp;url=https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMS/ShadedRelief" checked="Qt::Unchecked" legend_split_behavior="0" patch_size="-1,-1" legend_exp="" expanded="0">
+        <layer-tree-layer source="contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=Raster&amp;styles&amp;url=https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMS/ShadedRelief" checked="Qt::Unchecked" patch_size="-1,-1" id="Cieniowanie_w_siatce_1m_x_1m_ced00b88_687a_471b_b4e9_e2a4e6a50b94" expanded="0" name="Cieniowanie w siatce 1m x 1m" legend_exp="" providerKey="wms" legend_split_behavior="0">
           <customproperties>
-            <Option/>
+            <Option type="Map">
+              <Option type="QString" value="Cieniowanie w siatce 1m x 1m" name="cached_name"/>
+            </Option>
           </customproperties>
         </layer-tree-layer>
       </layer-tree-group>
     </layer-tree-group>
   </layer-tree-group>
   <maplayers>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278924763202667</ymin>
@@ -118,7 +138,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -126,22 +146,22 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="QString" name="identify/format" value="Undefined"/>
-          <Option type="QString" name="ol_layer_type" value="OpenStreetMap"/>
+          <Option type="QString" value="Undefined" name="identify/format"/>
+          <Option type="QString" value="OpenStreetMap" name="ol_layer_type"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="1">
+        <rasterrenderer type="singlebandcolordata" opacity="1" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -152,14 +172,14 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>139521.27766557032009587</xmin>
         <ymin>122715.26531593315303326</ymin>
@@ -198,6 +218,15 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -214,7 +243,15 @@
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
@@ -230,7 +267,7 @@
         <Searchable>0</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -238,21 +275,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="1">
+        <rasterrenderer type="singlebandcolordata" opacity="0.8" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -263,14 +303,145 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>139521.27766557032009587</xmin>
+        <ymin>122715.26531593315303326</ymin>
+        <xmax>880075.37626446061767638</xmax>
+        <ymax>790426.7207118347287178</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>13.38134691388789754</xmin>
+        <ymin>48.85534103472034673</ymin>
+        <xmax>24.92233143190520295</xmax>
+        <ymax>54.97720573514823883</ymax>
+      </wgs84extent>
+      <id>MAPA_TOPOGRAFICZNA_64508cb9_c52f_4e2b_8db8_f8d644d15862</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=MAPA%20TOPOGRAFICZNA&amp;styles=default&amp;tileMatrixSet=EPSG:2180&amp;url=http://mapy.geoportal.gov.pl/wss/service/WMTS/guest/wmts/TOPO?service%3DWMTS%26request%3DgetCapabilities</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>MAPA TOPOGRAFICZNA (czarno-biała)</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" fetchMode="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option type="QString" value="" name="name"/>
+          <Option name="properties"/>
+          <Option type="QString" value="collection" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" opacity="0.8" band="1" alphaBand="-1" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="3" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>118322.29387404397130013</xmin>
         <ymin>103601.3148151570931077</ymin>
@@ -309,6 +480,15 @@
         <type></type>
         <title></title>
         <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
         <links/>
         <fees></fees>
         <encoding></encoding>
@@ -325,7 +505,15 @@
             <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
-        <extent/>
+        <extent>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
       </resourceMetadata>
       <provider>wms</provider>
       <noData>
@@ -341,7 +529,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -349,21 +537,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="QString" name="identify/format" value="Html"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="1">
+        <rasterrenderer type="singlebandcolordata" opacity="0.8" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -374,26 +565,145 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>160000</xmin>
-        <ymin>120000</ymin>
-        <xmax>875000</xmax>
-        <ymax>785000</ymax>
+        <xmin>118322.29387404397130013</xmin>
+        <ymin>103601.3148151570931077</ymin>
+        <xmax>896351.91199387353844941</xmax>
+        <ymax>806302.07177128829061985</ymax>
       </extent>
       <wgs84extent>
-        <xmin>13.70535638344325591</xmin>
-        <ymin>48.83409187138720142</ymin>
-        <xmax>24.83668310638977772</xmax>
-        <ymax>54.92840243216691221</ymax>
+        <xmin>13.03181961862374649</xmin>
+        <ymin>48.67392693986386121</ymin>
+        <xmax>25.19617050456344387</xmax>
+        <ymax>55.11989204663577624</ymax>
       </wgs84extent>
+      <id>ORTOFOTOMAPA_6d935f4d_8e8b_4d49_bfb7_6b69e544e7a4</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ORTOFOTOMAPA&amp;styles=default&amp;tileMatrixSet=EPSG:2180&amp;url=https://mapy.geoportal.gov.pl/wss/service/PZGIK/ORTO/WMTS/StandardResolution?service%3DWMTS%26request%3DgetCapabilities</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ORTOFOTOMAPA (czarno-biała)</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal enabled="0" fetchMode="0" mode="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option type="QString" value="" name="name"/>
+          <Option name="properties"/>
+          <Option type="QString" value="collection" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" opacity="0.8" band="1" alphaBand="-1" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="3" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <id>Dynamiczna_hipsometria_3031aaa0_5f3c_471f_8408_ad5fed325720</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ISOK_HipsoDyn&amp;styles&amp;url=https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMS/Hypsometry</datasource>
       <keywordList>
@@ -446,7 +756,7 @@
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxz="0" dimensions="2" crs="" minx="0" miny="0" minz="0" maxy="0" maxx="0"/>
+          <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -469,7 +779,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -477,24 +787,24 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="bool" name="WMSBackgroundLayer" value="false"/>
-          <Option type="bool" name="WMSPublishDataSourceUrl" value="false"/>
-          <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="QString" name="identify/format" value="Undefined"/>
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Undefined" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="0.6">
+        <rasterrenderer type="singlebandcolordata" opacity="0.6" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -505,14 +815,147 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
+      <originalStyle>
+        <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" minScale="1e+08" autoRefreshTime="0" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
+          <extent>
+            <xmin>160000</xmin>
+            <ymin>120000</ymin>
+            <xmax>875000</xmax>
+            <ymax>785000</ymax>
+          </extent>
+          <wgs84extent>
+            <xmin>13.70535638344325591</xmin>
+            <ymin>48.83409187138720142</ymin>
+            <xmax>24.83668310638977772</xmax>
+            <ymax>54.92840243216691221</ymax>
+          </wgs84extent>
+          <id>Dynamiczna_hipsometria_3031aaa0_5f3c_471f_8408_ad5fed325720</id>
+          <datasource>contextualWMSLegend=0&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ISOK_HipsoDyn&amp;styles&amp;url=https://mapy.geoportal.gov.pl/wss/service/PZGIK/NMT/GRID1/WMS/Hypsometry</datasource>
+          <keywordList>
+            <value/>
+          </keywordList>
+          <layername>Dynamiczna hipsometria</layername>
+          <srs>
+            <spatialrefsys>
+              <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+              <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+              <srsid>171</srsid>
+              <srid>2180</srid>
+              <authid>EPSG:2180</authid>
+              <description>ETRF2000-PL / CS92</description>
+              <projectionacronym>tmerc</projectionacronym>
+              <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+              <geographicflag>false</geographicflag>
+            </spatialrefsys>
+          </srs>
+          <resourceMetadata>
+            <identifier/>
+            <parentidentifier/>
+            <language/>
+            <type/>
+            <title/>
+            <abstract/>
+            <contact>
+              <name/>
+              <organization/>
+              <position/>
+              <voice/>
+              <fax/>
+              <email/>
+              <role/>
+            </contact>
+            <links/>
+            <fees/>
+            <encoding/>
+            <crs>
+              <spatialrefsys>
+                <wkt/>
+                <proj4/>
+                <srsid>0</srsid>
+                <srid>0</srid>
+                <authid/>
+                <description/>
+                <projectionacronym/>
+                <ellipsoidacronym/>
+                <geographicflag>false</geographicflag>
+              </spatialrefsys>
+            </crs>
+            <extent>
+              <spatial dimensions="2" crs="" minx="0" minz="0" maxx="0" miny="0" maxy="0" maxz="0"/>
+              <temporal>
+                <period>
+                  <start/>
+                  <end/>
+                </period>
+              </temporal>
+            </extent>
+          </resourceMetadata>
+          <provider>wms</provider>
+          <noData>
+            <noDataList useSrcNoData="0" bandNo="1"/>
+          </noData>
+          <map-layer-style-manager current="domyślny">
+            <map-layer-style name="domyślny"/>
+          </map-layer-style-manager>
+          <metadataUrls/>
+          <flags>
+            <Identifiable>1</Identifiable>
+            <Removable>1</Removable>
+            <Searchable>1</Searchable>
+            <Private>0</Private>
+          </flags>
+          <temporal enabled="0" fetchMode="0" mode="0">
+            <fixedRange>
+              <start/>
+              <end/>
+            </fixedRange>
+          </temporal>
+          <customproperties>
+            <Option type="Map">
+              <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+              <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+              <Option type="int" value="0" name="embeddedWidgets/count"/>
+              <Option type="QString" value="Undefined" name="identify/format"/>
+            </Option>
+          </customproperties>
+          <pipe-data-defined-properties>
+            <Option type="Map">
+              <Option type="QString" value="" name="name"/>
+              <Option name="properties"/>
+              <Option type="QString" value="collection" name="type"/>
+            </Option>
+          </pipe-data-defined-properties>
+          <pipe>
+            <provider>
+              <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
+            </provider>
+            <rasterrenderer type="singlebandcolordata" opacity="0.6" band="1" alphaBand="-1" nodataColor="">
+              <rasterTransparency/>
+              <minMaxOrigin>
+                <limits>None</limits>
+                <extent>WholeRaster</extent>
+                <statAccuracy>Estimated</statAccuracy>
+                <cumulativeCutLower>0.02</cumulativeCutLower>
+                <cumulativeCutUpper>0.98</cumulativeCutUpper>
+                <stdDevFactor>2</stdDevFactor>
+              </minMaxOrigin>
+            </rasterrenderer>
+            <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+            <huesaturation colorizeStrength="100" colorizeRed="255" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
+            <rasterresampler maxOversampling="2"/>
+            <resamplingStage>resamplingFilter</resamplingStage>
+          </pipe>
+          <blendMode>0</blendMode>
+        </maplayer>
+      </originalStyle>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer maxScale="0" hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" minScale="1e+08" autoRefreshTime="0" autoRefreshEnabled="0" legendPlaceholderImage="">
+    <maplayer autoRefreshEnabled="0" type="raster" styleCategories="AllStyleCategories" legendPlaceholderImage="" refreshOnNotifyEnabled="0" maxScale="0" autoRefreshTime="0" minScale="1e+08" refreshOnNotifyMessage="" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>163299.5</xmin>
         <ymin>124899.5</ymin>
@@ -583,7 +1026,7 @@
         <Searchable>1</Searchable>
         <Private>0</Private>
       </flags>
-      <temporal mode="0" fetchMode="0" enabled="0">
+      <temporal enabled="0" fetchMode="0" mode="0">
         <fixedRange>
           <start></start>
           <end></end>
@@ -591,21 +1034,21 @@
       </temporal>
       <customproperties>
         <Option type="Map">
-          <Option type="QString" name="identify/format" value="Undefined"/>
+          <Option type="QString" value="Undefined" name="identify/format"/>
         </Option>
       </customproperties>
       <pipe-data-defined-properties>
         <Option type="Map">
-          <Option type="QString" name="name" value=""/>
+          <Option type="QString" value="" name="name"/>
           <Option name="properties"/>
-          <Option type="QString" name="type" value="collection"/>
+          <Option type="QString" value="collection" name="type"/>
         </Option>
       </pipe-data-defined-properties>
       <pipe>
         <provider>
-          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false"/>
+          <resampling enabled="false" zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" maxOversampling="2"/>
         </provider>
-        <rasterrenderer band="1" nodataColor="" type="singlebandcolordata" alphaBand="-1" opacity="1">
+        <rasterrenderer type="singlebandcolordata" opacity="1" band="1" alphaBand="-1" nodataColor="">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -616,8 +1059,8 @@
             <stdDevFactor>2</stdDevFactor>
           </minMaxOrigin>
         </rasterrenderer>
-        <brightnesscontrast gamma="1" contrast="0" brightness="0"/>
-        <huesaturation colorizeGreen="128" colorizeRed="255" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" invertColors="0" colorizeStrength="100"/>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeOn="0" grayscaleMode="0" colorizeBlue="128" invertColors="0" saturation="0" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
         <resamplingStage>resamplingFilter</resamplingStage>
       </pipe>
