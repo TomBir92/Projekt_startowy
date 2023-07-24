@@ -42,5 +42,10 @@
     <description>Ładuje projekt startwy lub poszczewgólne grupy warstw</description>
     <download_url>https://github.com/kamildrejer/wtyczki/blob/main/projekt_startowy.zip?raw=true</download_url>
   </pyqgis_plugin>
-
+  
+   <pyqgis_plugin name="Umweltaspekte" version="wersja 1.0">
+    <qgis_minimum_version>3.14.0</qgis_minimum_version>
+    <description>Plugin podający odległości od obiektów dla wybranych warstw tematycznych</description>
+    <download_url>https://github.com/kamildrejer/wtyczki/blob/main/umweltaspekte.zip?raw=true</download_url>
+  </pyqgis_plugin>
 </plugins>
