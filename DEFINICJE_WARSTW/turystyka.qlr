@@ -1,0 +1,559 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group expanded="1" name="" checked="Qt::Checked">
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-group expanded="0" name="TURYSTYKA" checked="Qt::Unchecked">
+      <customproperties>
+        <Option/>
+      </customproperties>
+      <layer-tree-layer providerKey="wms" id="Program_Zanocuj_w_lesie_8f4957f0_50b1_4aad_81f1_8e8ca7fe63f6" expanded="0" source="contextualWMSLegend=1&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=39&amp;styles&amp;url=https://mapserver.bdl.lasy.gov.pl/ArcGIS/services/WMS_BDL_Mapa_turystyczna/MapServer/WMSServer" name="Program Zanocuj w lesie" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" checked="Qt::Unchecked">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="wms" id="_cie_ki_dydaktyczne_e5bd2ae4_92d8_4aba_b06a_26a395cec7e9" expanded="0" source="contextualWMSLegend=1&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=0&amp;styles&amp;url=https://mapserver.bdl.lasy.gov.pl/ArcGIS/services/WMS_BDL_Mapa_turystyczna/MapServer/WMSServer" name="Ścieżki dydaktyczne" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" checked="Qt::Unchecked">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="wms" id="O_rodek_szkoleniowo_wypoczynkowy_O_rodek_wypoczynkowy_Kwatera_my_liwska_Pok_j_go_cinny_Schronisko_le_ne_Miejsce_biwakowe_Pole_biwakowe_Kemping_Obozowisko_harcerskie_Miejsce_odpoczynku_Parking_le_ny_Miejsce_postojowe_Plac_zabaw_dla_dzieci_Punkt_widokowy_Punkt_wodowania_i_cumowania_sprz_tu_wodnego_O_rodek_edukacji_le_nej_Izba_edukacji_le_nej_Zielona_klasa_ee9ac6f1_7bfd_45b7_8b40_38451bc972e7" expanded="0" source="contextualWMSLegend=1&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=17&amp;layers=18&amp;layers=19&amp;layers=21&amp;layers=22&amp;layers=24&amp;layers=25&amp;layers=26&amp;layers=27&amp;layers=29&amp;layers=30&amp;layers=31&amp;layers=32&amp;layers=34&amp;layers=35&amp;layers=36&amp;layers=37&amp;layers=38&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;url=https://mapserver.bdl.lasy.gov.pl/ArcGIS/services/WMS_BDL_Mapa_turystyczna/MapServer/WMSServer" name="Ośrodek szkoleniowo-wypoczynkowy/Ośrodek wypoczynkowy/Kwatera myśliwska/Pokój gościnny/Schronisko leśne/Miejsce biwakowe/Pole biwakowe/Kemping/Obozowisko harcerskie/Miejsce odpoczynku/Parking leśny/Miejsce postojowe/Plac zabaw dla dzieci/Punkt widokowy/Punkt wodowania i cumowania sprzętu wodnego/Ośrodek edukacji leśnej/Izba edukacji leśnej/Zielona klasa" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" checked="Qt::Unchecked">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="wms" id="szlak_pieszy_czarny_szlak_pieszy_czerwony_szlak_pieszy_niebieski_szlak_pieszy_zielony_szlak_pieszy____ty_biegowy_sc__zdrowia_n__walking_inne_szlak_rowerowy_MTB_singletrack_scie_ka_konna_nartostrada_tor_sanecz__trasa_narc__bieg__szlak_kajakowy_kolej_turystyczna_73453082_5797_4e70_8dd3_a962802ea9a7" expanded="0" source="contextualWMSLegend=1&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=2&amp;layers=3&amp;layers=4&amp;layers=5&amp;layers=6&amp;layers=7&amp;layers=8&amp;layers=9&amp;layers=10&amp;layers=11&amp;layers=12&amp;layers=13&amp;layers=14&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;url=https://mapserver.bdl.lasy.gov.pl/ArcGIS/services/WMS_BDL_Mapa_turystyczna/MapServer/WMSServer" name="szlak pieszy czarny/szlak pieszy czerwony/szlak pieszy niebieski/szlak pieszy zielony/szlak pieszy żółty/biegowy/sc. zdrowia/n. walking/inne/szlak rowerowy/MTB/singletrack/scieżka konna/nartostrada/tor sanecz./trasa narc. bieg./szlak kajakowy/kolej turystyczna" legend_exp="" patch_size="-1,-1" legend_split_behavior="0" checked="Qt::Unchecked">
+        <customproperties>
+          <Option/>
+        </customproperties>
+      </layer-tree-layer>
+    </layer-tree-group>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer type="raster" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>147396.19016299999202602</xmin>
+        <ymin>128509.09067700000014156</ymin>
+        <xmax>907653.00234799995087087</xmax>
+        <ymax>780860.98842399998102337</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>13.51509743365826388</xmin>
+        <ymin>48.88974080902314512</ymin>
+        <xmax>25.33579108005932667</xmax>
+        <ymax>54.89119263171010488</ymax>
+      </wgs84extent>
+      <id>Program_Zanocuj_w_lesie_8f4957f0_50b1_4aad_81f1_8e8ca7fe63f6</id>
+      <datasource>contextualWMSLegend=1&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=39&amp;styles&amp;url=https://mapserver.bdl.lasy.gov.pl/ArcGIS/services/WMS_BDL_Mapa_turystyczna/MapServer/WMSServer</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Program Zanocuj w lesie</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" maxz="0" crs="" minx="0" dimensions="2" minz="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fetchMode="0" mode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option type="QString" value="" name="name"/>
+          <Option name="properties"/>
+          <Option type="QString" value="collection" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" enabled="false" zoomedOutResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="0.5" alphaBand="-1" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeRed="255" colorizeBlue="128" invertColors="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer type="raster" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>130755.13430299999890849</xmin>
+        <ymin>133278.08160400000633672</ymin>
+        <xmax>899341.97550900001078844</xmax>
+        <ymax>788159.30223100003786385</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>13.24836261791288194</xmin>
+        <ymin>48.93786817899949426</ymin>
+        <xmax>25.21749973893840746</xmax>
+        <ymax>54.95676826766182188</ymax>
+      </wgs84extent>
+      <id>_cie_ki_dydaktyczne_e5bd2ae4_92d8_4aba_b06a_26a395cec7e9</id>
+      <datasource>contextualWMSLegend=1&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=0&amp;styles&amp;url=https://mapserver.bdl.lasy.gov.pl/ArcGIS/services/WMS_BDL_Mapa_turystyczna/MapServer/WMSServer</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Ścieżki dydaktyczne</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" maxz="0" crs="" minx="0" dimensions="2" minz="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fetchMode="0" mode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option type="QString" value="" name="name"/>
+          <Option name="properties"/>
+          <Option type="QString" value="collection" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" enabled="false" zoomedOutResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="0.5" alphaBand="-1" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeRed="255" colorizeBlue="128" invertColors="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer type="raster" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>128069.5746450000006007</xmin>
+        <ymin>132911.95705900000757538</ymin>
+        <xmax>899154.97381200001109391</xmax>
+        <ymax>788322.10690699995029718</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>13.20655805824222995</xmin>
+        <ymin>48.93470916968401951</ymin>
+        <xmax>25.21483135571919476</xmax>
+        <ymax>54.95820656528399439</ymax>
+      </wgs84extent>
+      <id>O_rodek_szkoleniowo_wypoczynkowy_O_rodek_wypoczynkowy_Kwatera_my_liwska_Pok_j_go_cinny_Schronisko_le_ne_Miejsce_biwakowe_Pole_biwakowe_Kemping_Obozowisko_harcerskie_Miejsce_odpoczynku_Parking_le_ny_Miejsce_postojowe_Plac_zabaw_dla_dzieci_Punkt_widokowy_Punkt_wodowania_i_cumowania_sprz_tu_wodnego_O_rodek_edukacji_le_nej_Izba_edukacji_le_nej_Zielona_klasa_ee9ac6f1_7bfd_45b7_8b40_38451bc972e7</id>
+      <datasource>contextualWMSLegend=1&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=17&amp;layers=18&amp;layers=19&amp;layers=21&amp;layers=22&amp;layers=24&amp;layers=25&amp;layers=26&amp;layers=27&amp;layers=29&amp;layers=30&amp;layers=31&amp;layers=32&amp;layers=34&amp;layers=35&amp;layers=36&amp;layers=37&amp;layers=38&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;url=https://mapserver.bdl.lasy.gov.pl/ArcGIS/services/WMS_BDL_Mapa_turystyczna/MapServer/WMSServer</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Ośrodek szkoleniowo-wypoczynkowy/Ośrodek wypoczynkowy/Kwatera myśliwska/Pokój gościnny/Schronisko leśne/Miejsce biwakowe/Pole biwakowe/Kemping/Obozowisko harcerskie/Miejsce odpoczynku/Parking leśny/Miejsce postojowe/Plac zabaw dla dzieci/Punkt widokowy/Punkt wodowania i cumowania sprzętu wodnego/Ośrodek edukacji leśnej/Izba edukacji leśnej/Zielona klasa</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" maxz="0" crs="" minx="0" dimensions="2" minz="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fetchMode="0" mode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option type="QString" value="" name="name"/>
+          <Option name="properties"/>
+          <Option type="QString" value="collection" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" enabled="false" zoomedOutResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="0.5" alphaBand="-1" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeRed="255" colorizeBlue="128" invertColors="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer type="raster" refreshOnNotifyMessage="" autoRefreshTime="0" styleCategories="AllStyleCategories" hasScaleBasedVisibilityFlag="0" maxScale="0" minScale="1e+08" legendPlaceholderImage="" autoRefreshEnabled="0" refreshOnNotifyEnabled="0">
+      <extent>
+        <xmin>127378.32705799999530427</xmin>
+        <ymin>126729.24633500000345521</ymin>
+        <xmax>908067.36216799996327609</xmax>
+        <ymax>789190.60789400001522154</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>13.19473425142466816</xmin>
+        <ymin>48.87352803488732178</ymin>
+        <xmax>25.35388128508034455</xmax>
+        <ymax>54.96606860719324317</ymax>
+      </wgs84extent>
+      <id>szlak_pieszy_czarny_szlak_pieszy_czerwony_szlak_pieszy_niebieski_szlak_pieszy_zielony_szlak_pieszy____ty_biegowy_sc__zdrowia_n__walking_inne_szlak_rowerowy_MTB_singletrack_scie_ka_konna_nartostrada_tor_sanecz__trasa_narc__bieg__szlak_kajakowy_kolej_turystyczna_73453082_5797_4e70_8dd3_a962802ea9a7</id>
+      <datasource>contextualWMSLegend=1&amp;crs=EPSG:2180&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=2&amp;layers=3&amp;layers=4&amp;layers=5&amp;layers=6&amp;layers=7&amp;layers=8&amp;layers=9&amp;layers=10&amp;layers=11&amp;layers=12&amp;layers=13&amp;layers=14&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;url=https://mapserver.bdl.lasy.gov.pl/ArcGIS/services/WMS_BDL_Mapa_turystyczna/MapServer/WMSServer</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>szlak pieszy czarny/szlak pieszy czerwony/szlak pieszy niebieski/szlak pieszy zielony/szlak pieszy żółty/biegowy/sc. zdrowia/n. walking/inne/szlak rowerowy/MTB/singletrack/scieżka konna/nartostrada/tor sanecz./trasa narc. bieg./szlak kajakowy/kolej turystyczna</layername>
+      <srs>
+        <spatialrefsys>
+          <wkt>PROJCRS["ETRF2000-PL / CS92",BASEGEOGCRS["ETRF2000-PL",DATUM["ETRF2000 Poland",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",9702]],CONVERSION["Poland CS92",METHOD["Transverse Mercator",ID["EPSG",9807]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",19,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["Scale factor at natural origin",0.9993,SCALEUNIT["unity",1],ID["EPSG",8805]],PARAMETER["False easting",500000,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",-5300000,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["northing (x)",north,ORDER[1],LENGTHUNIT["metre",1]],AXIS["easting (y)",east,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Topographic mapping (medium and small scale)."],AREA["Poland - onshore and offshore."],BBOX[49,14.14,55.93,24.15]],ID["EPSG",2180]]</wkt>
+          <proj4>+proj=tmerc +lat_0=0 +lon_0=19 +k=0.9993 +x_0=500000 +y_0=-5300000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>171</srsid>
+          <srid>2180</srid>
+          <authid>EPSG:2180</authid>
+          <description>ETRF2000-PL / CS92</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <wkt></wkt>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" maxz="0" crs="" minx="0" dimensions="2" minz="0" miny="0" maxy="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="domyślny">
+        <map-layer-style name="domyślny"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fetchMode="0" mode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <customproperties>
+        <Option type="Map">
+          <Option type="bool" value="false" name="WMSBackgroundLayer"/>
+          <Option type="bool" value="false" name="WMSPublishDataSourceUrl"/>
+          <Option type="int" value="0" name="embeddedWidgets/count"/>
+          <Option type="QString" value="Html" name="identify/format"/>
+        </Option>
+      </customproperties>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option type="QString" value="" name="name"/>
+          <Option name="properties"/>
+          <Option type="QString" value="collection" name="type"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling maxOversampling="2" zoomedInResamplingMethod="nearestNeighbour" enabled="false" zoomedOutResamplingMethod="nearestNeighbour"/>
+        </provider>
+        <rasterrenderer type="singlebandcolordata" band="1" opacity="0.5" alphaBand="-1" nodataColor="">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" gamma="1" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeStrength="100" saturation="0" grayscaleMode="0" colorizeRed="255" colorizeBlue="128" invertColors="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
